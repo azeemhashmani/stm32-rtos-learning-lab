@@ -1,0 +1,19 @@
+st-info --probe
+================
+azeem@azeemInspiron3910:~/st/stm32cubeide_2.1.0$ st-info --probe
+Found 1 stlink programmers
+  version:    V2J37S26
+  serial:     0670FF3231454D3043022556
+  flash:      1048576 (pagesize: 16384)
+  sram:       196608
+  chipid:     0x413
+  dev-type:   STM32F4x5_F4x7.
+
+
+st-info --probe is basically a hardware identification query.
+
+Often run it to confirm:
+debugger works
+board is connected
+chip is detected
+
